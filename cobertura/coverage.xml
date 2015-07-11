@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="66" branches-covered="0" branches-valid="20" complexity="1.6666666666666667" version="2.0.3" timestamp="1436641531926">
+<coverage line-rate="0.030303030303030304" branch-rate="0.0" lines-covered="2" lines-valid="66" branches-covered="0" branches-valid="20" complexity="1.6666666666666667" version="2.0.3" timestamp="1436651823113">
 	<sources>
 		<source>--source</source>
 		<source>C:/Users/salad74/NetBeansProjects/schemacrawler-plugin-neo4j/src/main/java</source>
 	</sources>
 	<packages>
-		<package name="nc.adriens.schemacrawler.plugin.neo4j" line-rate="0.0" branch-rate="0.0" complexity="1.6666666666666667">
+		<package name="nc.adriens.schemacrawler.plugin.neo4j" line-rate="0.030303030303030304" branch-rate="0.0" complexity="1.6666666666666667">
 			<classes>
-				<class name="nc.adriens.schemacrawler.plugin.neo4j.AdditionalCommandProvider" filename="nc/adriens/schemacrawler/plugin/neo4j/AdditionalCommandProvider.java" line-rate="0.0" branch-rate="0.0" complexity="1.6666666666666667">
+				<class name="nc.adriens.schemacrawler.plugin.neo4j.AdditionalCommandProvider" filename="nc/adriens/schemacrawler/plugin/neo4j/AdditionalCommandProvider.java" line-rate="0.2222222222222222" branch-rate="0.0" complexity="1.6666666666666667">
 					<methods>
-						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="13" hits="0" branch="false"/>
+								<line number="13" hits="1" branch="false"/>
 							</lines>
 						</method>
 						<method name="configureNewExecutable" signature="(Lschemacrawler/schemacrawler/SchemaCrawlerOptions;Lschemacrawler/tools/options/OutputOptions;)Lschemacrawler/tools/executable/Executable;" line-rate="0.0" branch-rate="0.0">
@@ -34,9 +34,9 @@
 								<line number="30" hits="0" branch="false"/>
 							</lines>
 						</method>
-						<method name="getCommand" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
+						<method name="getCommand" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="36" hits="0" branch="false"/>
+								<line number="36" hits="2" branch="false"/>
 							</lines>
 						</method>
 						<method name="getHelpResource" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0">
@@ -46,7 +46,7 @@
 						</method>
 					</methods>
 					<lines>
-						<line number="13" hits="0" branch="false"/>
+						<line number="13" hits="1" branch="false"/>
 						<line number="21" hits="0" branch="false"/>
 						<line number="22" hits="0" branch="true" condition-coverage="0 % (0/2)">
 							<conditions>
@@ -61,7 +61,7 @@
 						</line>
 						<line number="28" hits="0" branch="false"/>
 						<line number="30" hits="0" branch="false"/>
-						<line number="36" hits="0" branch="false"/>
+						<line number="36" hits="2" branch="false"/>
 						<line number="42" hits="0" branch="false"/>
 					</lines>
 				</class>

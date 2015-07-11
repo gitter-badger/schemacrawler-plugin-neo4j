@@ -70,7 +70,9 @@
 										<a href="project-reports.html" title="Project Reports">Project Reports</a>
 										<ul class="dropdown-menu">
 											<li ><a href="apidocs/index.html" title="JavaDocs">JavaDocs</a></li>
+											<li ><a href="testapidocs/index.html" title="Test JavaDocs">Test JavaDocs</a></li>
 											<li ><a href="xref/index.html" title="Source Xref">Source Xref</a></li>
+											<li ><a href="xref-test/index.html" title="Test Source Xref">Test Source Xref</a></li>
 											<li ><a href="surefire-report.html" title="Surefire Report">Surefire Report</a></li>
 											<li ><a href="cobertura/index.html" title="Cobertura Test Coverage">Cobertura Test Coverage</a></li>
 											<li ><a href="checkstyle.html" title="Checkstyle">Checkstyle</a></li>
@@ -127,7 +129,7 @@
  </div> 
  <div class="section"> 
   <h3 id="Changes_between_2015-06-12_and_2015-07-13">Changes between 2015-06-12 and 2015-07-13</h3> 
-  <p>Total commits: 51<br />Total number of files changed: 14</p> 
+  <p>Total commits: 63<br />Total number of files changed: 15</p> 
   <table border="0" class="bodyTable table table-striped table-hover"> 
    <thead> 
     <tr class="a"> 
@@ -138,7 +140,7 @@
    <tbody> 
     <tr class="b"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/README.md"><b>README.md</b></a> </td> 
-     <td>15</td> 
+     <td>25</td> 
     </tr> 
     <tr class="a"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/pom.xml"><b>pom.xml</b></a> </td> 
@@ -153,42 +155,46 @@
      <td>3</td> 
     </tr> 
     <tr class="b"> 
+     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/site/site.xml">src/site/<b>site.xml</b></a> </td> 
+     <td>2</td> 
+    </tr> 
+    <tr class="a"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/java/nc/adriens/schemacrawler/plugin/neo4j/DatabaseNodeType">src/main/java/nc/adriens/schemacrawler/plugin/neo4j/<b>DatabaseNodeType</b></a> </td> 
      <td>2</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/dependency-reduced-pom.xml"><b>dependency-reduced-pom.xml</b></a> </td> 
      <td>2</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/java/nc/adriens/schemacrawler/plugin/neo4j/DatabaseNodeType.java">src/main/java/nc/adriens/schemacrawler/plugin/neo4j/<b>DatabaseNodeType.java</b></a> </td> 
      <td>2</td> 
     </tr> 
-    <tr class="a"> 
+    <tr class="b"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/java/nc/adriens/schemacrawler/plugin/neo4j/AdditionalCommandProvider.java">src/main/java/nc/adriens/schemacrawler/plugin/neo4j/<b>AdditionalCommandProvider.java</b></a> </td> 
      <td>2</td> 
     </tr> 
-    <tr class="b"> 
+    <tr class="a"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/changes/changes.xml">src/changes/<b>changes.xml</b></a> </td> 
      <td>2</td> 
-    </tr> 
-    <tr class="a"> 
-     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/site/site.xml">src/site/<b>site.xml</b></a> </td> 
-     <td>1</td> 
     </tr> 
     <tr class="b"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/.travis.yml"><b>.travis.yml</b></a> </td> 
      <td>1</td> 
     </tr> 
     <tr class="a"> 
-     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/resources/META-INF/services/schemacrawler.tools.executable.CommandProvider">src/main/resources/META-INF/services/<b>schemacrawler.tools.executable.CommandProvider</b></a> </td> 
+     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/test/java/TestCommandPlugin.java">src/test/java/<b>TestCommandPlugin.java</b></a> </td> 
      <td>1</td> 
     </tr> 
     <tr class="b"> 
-     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/resources/help/AdditionalCommandProvider.txt">src/main/resources/help/<b>AdditionalCommandProvider.txt</b></a> </td> 
+     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/resources/META-INF/services/schemacrawler.tools.executable.CommandProvider">src/main/resources/META-INF/services/<b>schemacrawler.tools.executable.CommandProvider</b></a> </td> 
      <td>1</td> 
     </tr> 
     <tr class="a"> 
+     <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/src/main/resources/help/AdditionalCommandProvider.txt">src/main/resources/help/<b>AdditionalCommandProvider.txt</b></a> </td> 
+     <td>1</td> 
+    </tr> 
+    <tr class="b"> 
      <td><a class="externalLink" href="https://github.com/adriens/schemacrawler-plugin-neo4j/LICENSE"><b>LICENSE</b></a> </td> 
      <td>1</td> 
     </tr> 
@@ -221,7 +227,13 @@
 							<a href="apidocs/index.html" title="JavaDocs">JavaDocs</a>
 						</li>
 						<li >
+							<a href="testapidocs/index.html" title="Test JavaDocs">Test JavaDocs</a>
+						</li>
+						<li >
 							<a href="xref/index.html" title="Source Xref">Source Xref</a>
+						</li>
+						<li >
+							<a href="xref-test/index.html" title="Test Source Xref">Test Source Xref</a>
 						</li>
 						<li >
 							<a href="surefire-report.html" title="Surefire Report">Surefire Report</a>
